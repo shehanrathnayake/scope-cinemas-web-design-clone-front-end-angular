@@ -1,0 +1,27 @@
+.header {
+  height: 40px;
+}
+.header__img--logo {
+  height: 25px;
+}
+
+.header__icons-container {
+  @apply gap-1.5
+}
+
+.header__icons {
+  height: 20px;
+}
+
+.header__icons--list {
+  width: 35px;
+}
+
+.header__btn--buy-tickets {
+  @apply text-white bg-blue-900 px-3.5 py-0.5
+}
+
+.header__btn--buy-tickets-font {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
