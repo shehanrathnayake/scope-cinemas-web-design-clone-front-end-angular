@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
       <div class="bg-color--primary">
           <app-header/>
+          <app-mobile-hero-section/>
       </div>
 
 
