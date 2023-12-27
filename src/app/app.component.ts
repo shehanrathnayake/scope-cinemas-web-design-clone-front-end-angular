@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
           <app-header/>
           <app-mobile-hero-section/>
           <app-mobile-slider-section/>
+
+          <app-deals-section/>
       </div>
 
 

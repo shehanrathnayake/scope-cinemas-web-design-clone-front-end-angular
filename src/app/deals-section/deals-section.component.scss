@@ -1,0 +1,25 @@
+.deal-card {
+  @apply mx-4 mt-4 overflow-hidden
+}
+
+.deal-card img {
+  @apply rounded-lg;
+
+  transition: transform 0.3s ease;
+}
+
+.deal-card img:hover {
+  transform: scale(1.05);
+}
+
+.deal-card h3 {
+  @apply text-sm font-bold mt-3
+}
+
+.deal-card p {
+  @apply text-xs mt-3 leading-5
+}
+
+.deal-card a {
+  @apply text-xs font-bold mt-5 text-blue-950 tracking-wide
+}

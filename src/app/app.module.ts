@@ -9,6 +9,7 @@ import { MobileHeroSectionComponent } from './mobile-hero-section/mobile-hero-se
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
 import { MobileSliderSectionComponent } from './mobile-slider-section/mobile-slider-section.component';
+import { DealsSectionComponent } from './deals-section/deals-section.component';
 // register Swiper custom elements
 register();
 
@@ -18,7 +19,8 @@ register();
     AppComponent,
     HeaderComponent,
     MobileHeroSectionComponent,
-    MobileSliderSectionComponent
+    MobileSliderSectionComponent,
+    DealsSectionComponent
   ],
   imports: [
     BrowserModule,
