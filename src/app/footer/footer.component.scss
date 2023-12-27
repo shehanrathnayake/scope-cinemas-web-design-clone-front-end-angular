@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer__img--download img {
+  @apply border-4 border-gray-400 border-opacity-10 rounded
+}
+
+.footer__img--download img {
+  width: 150px;
+}
+
+.footer__img--social img {
+  width: 20px;
+}
+
+.footer__section2 {
+  background-color: #131334;
+}
+
+.footer__menu {
+  font-size: 12px;
+}
+
+.footer__menu li {
+  @apply pb-2
+}
+
+.footer__form__input {
+  font-size: 13px;
+  background-color: #1b1b46;
+}

@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
           <app-mobile-slider-section/>
 
           <app-deals-section/>
+
+          <app-footer/>
       </div>
 
 
