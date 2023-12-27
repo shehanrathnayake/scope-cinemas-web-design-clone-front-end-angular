@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
       <div class="bg-color--primary">
           <app-header/>
           <app-mobile-hero-section/>
+          <app-mobile-slider-section/>
       </div>
 
 

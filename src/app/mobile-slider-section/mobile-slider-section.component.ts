@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
-import Swiper from "swiper";
 
 @Component({
-  selector: 'app-mobile-hero-section',
+  selector: 'app-mobile-slider-section',
   template: `
-      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" loop="true"
-                        centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="true" effect="fade">
+
+      <div class="flex gap-2 mt-7 mb-4 ps-4">
+          <button type="button" class="slider__btn">NOW SHOWING</button>
+          <button type="button" class="slider__btn">COMING SOON</button>
+      </div>
+
+      <swiper-container class="mySwiper" loop="true" slides-per-view="1.5"
+                        centered-slides="true" autoplay-delay="10000" autoplay-disable-on-interaction="true"
+                        freemode="true">
           <swiper-slide>
               <img src="/assets/img/movie-images/43f23679-99b1-4669-9299-2288471e6621.jpg" alt="">
           </swiper-slide>
@@ -22,10 +28,9 @@ import Swiper from "swiper";
               <img src="/assets/img/movie-images/fbebbef6-3b0d-4c06-b862-cbe7bc2e7142.jpg" alt="">
           </swiper-slide>
       </swiper-container>
-
   `,
-  styleUrl: './mobile-hero-section.component.scss'
+  styleUrl: './mobile-slider-section.component.scss'
 })
-export class MobileHeroSectionComponent {
+export class MobileSliderSectionComponent {
 
 }
