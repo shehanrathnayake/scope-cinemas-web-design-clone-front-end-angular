@@ -1,5 +1,6 @@
 .header {
   height: 40px;
+  background-color: #000025;
 }
 .header__img--logo {
   height: 25px;
@@ -17,9 +18,12 @@
   width: 35px;
 }
 
-
-
 .header__btn--buy-tickets-font {
   font-size: 0.7rem;
   font-weight: 500;
+}
+
+.header__icons--close {
+  width: 25px;
+  @apply ms-2.5
 }

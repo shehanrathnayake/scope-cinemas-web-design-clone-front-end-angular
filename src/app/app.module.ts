@@ -11,6 +11,7 @@ import { register } from 'swiper/element/bundle';
 import { MobileSliderSectionComponent } from './mobile-slider-section/mobile-slider-section.component';
 import { DealsSectionComponent } from './deals-section/deals-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { MobileAsideComponent } from './mobile-aside/mobile-aside.component';
 // register Swiper custom elements
 register();
 
@@ -22,7 +23,8 @@ register();
     MobileHeroSectionComponent,
     MobileSliderSectionComponent,
     DealsSectionComponent,
-    FooterComponent
+    FooterComponent,
+    MobileAsideComponent
   ],
   imports: [
     BrowserModule,

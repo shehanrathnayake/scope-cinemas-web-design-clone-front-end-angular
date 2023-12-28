@@ -1,0 +1,13 @@
+.aside {
+  font-family: 'Raleway', sans-serif;
+  @apply bg-[#000025] h-0 text-gray-300 font-[300] text-[13px] tracking-[1.3px];
+  transition: height 0.3s ease;
+
+  &.active {
+    @apply h-full;
+  }
+}
+
+.aside li {
+  @apply py-[15px] border-b-[1px] border-b-gray-900
+}
