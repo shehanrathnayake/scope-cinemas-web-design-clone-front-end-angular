@@ -14,7 +14,6 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
                   <img class="header__icons--list {{isOpen? 'hidden':'block'}}" src="/assets/img/icons/list-svg.svg" alt="">
                   <img class="header__icons--close {{isOpen? 'block':'hidden'}}" src="/assets/img/icons/close-bot.svg" alt="">
               </div>
-
           </div>
       </div>
   `,
