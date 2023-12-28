@@ -30,7 +30,7 @@ import Swiper from "swiper";
           <swiper-slide>
               <div class="hero--mobile-wrapper">
                   <div class="hero__div--status">NOW SHOWING AT SCOPE CINEMAS</div>
-                  <h2 class="text-xl mt-1.5">FLASH (3D)</h2>
+                  <h2 class="text-xl mt-1.5">TRANSFORMERS (3D)</h2>
                   <div class="flex gap-2">
                       <button class="hero__btn hero__btn--buy-tickets btn--buy-tickets">
                           <div>
@@ -51,7 +51,7 @@ import Swiper from "swiper";
           <swiper-slide>
               <div class="hero--mobile-wrapper">
                   <div class="hero__div--status">NOW SHOWING AT SCOPE CINEMAS</div>
-                  <h2 class="text-xl mt-1.5">FLASH (3D)</h2>
+                  <h2 class="text-xl mt-1.5">FAST AND FURIOUS (3D)</h2>
                   <div class="flex gap-2">
                       <button class="hero__btn hero__btn--buy-tickets btn--buy-tickets">
                           <div>
@@ -72,7 +72,7 @@ import Swiper from "swiper";
           <swiper-slide>
               <div class="hero--mobile-wrapper">
                   <div class="hero__div--status">NOW SHOWING AT SCOPE CINEMAS</div>
-                  <h2 class="text-xl mt-1.5">FLASH (3D)</h2>
+                  <h2 class="text-xl mt-1.5">SPIDER MAN: ACROSS THE SPIDER VERSE</h2>
                   <div class="flex gap-2">
                       <button class="hero__btn hero__btn--buy-tickets btn--buy-tickets">
                           <div>
@@ -93,7 +93,7 @@ import Swiper from "swiper";
           <swiper-slide>
               <div class="hero--mobile-wrapper">
                   <div class="hero__div--status">NOW SHOWING AT SCOPE CINEMAS</div>
-                  <h2 class="text-xl mt-1.5">FLASH (3D)</h2>
+                  <h2 class="text-xl mt-1.5">LITTLE MERMAID</h2>
                   <div class="flex gap-2">
                       <button class="hero__btn hero__btn--buy-tickets btn--buy-tickets">
                           <div>

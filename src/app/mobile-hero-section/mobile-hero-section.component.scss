@@ -46,6 +46,10 @@ swiper-container {
           bg-gradient-to-b from-[#000025]/0 from-60% to-[#000025]/100
 }
 
+.hero--mobile-wrapper h2 {
+  @apply text-start
+}
+
 .hero__div--status {
   @apply font-light bg-pink-700 px-3 py-0.5;
   font-size: 11px;

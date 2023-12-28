@@ -8,9 +8,9 @@ body {
   //background: #eee;
   //font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 swiper-container {
@@ -20,18 +20,20 @@ swiper-container {
 
 swiper-slide {
   text-align: center;
-  font-size: 18px;
-  background: #fff;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  flex-direction: column;
 }
 
 swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  @apply rounded-t-md
 }
 
 swiper-container {
@@ -39,6 +41,22 @@ swiper-container {
   margin-right: auto;
 }
 
-.slider__btn {
-  @apply text-white text-xs
+.slider__btn-container {
+  @apply flex gap-2 mt-7 mb-4 ps-4 text-white text-xs;
+}
+
+.slider__btn-container button {
+  @apply pb-0.5
+}
+
+.mobile-slider__btn--buy-tickets {
+  @apply flex gap-2 items-center text-[13px] px-2.5 py-1.5
+}
+
+.mobile-slider__btn--buy-tickets img{
+  width: 26px;
+}
+
+.slider-details {
+  @apply h-[200px] flex flex-col items-center gap-3
 }
