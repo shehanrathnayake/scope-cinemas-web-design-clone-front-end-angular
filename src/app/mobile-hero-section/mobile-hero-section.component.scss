@@ -16,15 +16,17 @@ body {
 swiper-container {
   width: 100%;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 swiper-slide {
   text-align: center;
-  font-size: 18px;
+  //font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  @apply relative border-b border-gray-600;
 }
 
 swiper-slide img {
@@ -39,3 +41,28 @@ swiper-container {
   margin-right: auto;
 }
 
+.hero--mobile-wrapper {
+  @apply absolute flex flex-col items-start justify-end left-0 top-0 h-full text-white gap-2 ps-4 pb-14 w-full
+          bg-gradient-to-b from-[#000025]/0 from-60% to-[#000025]/100
+}
+
+.hero__div--status {
+  @apply font-light bg-pink-700 px-3 py-0.5;
+  font-size: 11px;
+}
+
+.hero__btn {
+  @apply flex items-center gap-1.5 text-xs font-light
+}
+
+.hero__btn--buy-tickets {
+  @apply  px-2 py-1.5
+}
+
+.hero__btn span {
+  @apply font-normal
+}
+
+.hero__btn img{
+  @apply w-5
+}

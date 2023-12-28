@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
               <img class="header__img--logo" src="/assets/img/logo/scope-cinemas-logo-w.png" alt="">
           </div>
           <div class="flex items-center justify-end header__icons-container">
-              <button class="header__btn--buy-tickets header__btn--buy-tickets-font me-2">BUY TICKETS</button>
+              <button class="btn--buy-tickets header__btn--buy-tickets-font me-2">BUY TICKETS</button>
               <img class="header__icons" src="/assets/img/icons/login.svg" alt="">
               <img class="header__icons--list" src="/assets/img/icons/list-svg.svg" alt="">
           </div>

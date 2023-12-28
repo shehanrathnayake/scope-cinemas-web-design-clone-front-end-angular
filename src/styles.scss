@@ -6,3 +6,7 @@
 html {
   font-family: 'Raleway', sans-serif;
 }
+
+.btn--buy-tickets {
+  @apply text-white bg-blue-900 px-3.5 py-0.5
+}
