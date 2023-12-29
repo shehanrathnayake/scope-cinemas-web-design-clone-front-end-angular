@@ -1,5 +1,5 @@
 .deal-card {
-  @apply mx-4 mt-4 overflow-hidden lg:flex lg:items-center lg:justify-start lg:mx-auto lg:bg-gray-300 lg:w-[1024px]
+  @apply mx-4 mt-8 overflow-hidden lg:flex lg:items-center lg:justify-start lg:mx-auto lg:bg-gray-300 lg:w-[1024px]
 }
 
 .deals__heading {
@@ -7,15 +7,19 @@
 }
 
 .deal-content {
-  @apply lg:px-9;
+  @apply lg:px-9 lg:w-[50%];
 }
 
-.deal-card img {
-  @apply rounded-lg lg:p-9 lg:w-[55%];
+.deal-card--image-wrapper {
+  @apply lg:m-9 lg:w-[50%] h-full overflow-hidden;
+}
+
+.deal-card--image-wrapper img {
+  @apply rounded-t-lg w-[100%] object-cover;
   transition: transform 0.3s ease;
 }
 
-.deal-card img:hover {
+.deal-card--image-wrapper img:hover {
   transform: scale(1.05);
 }
 

@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
           <h2 class="deals__heading">DEALS & EXCLUSIVE</h2>
 
           <div class="deal-card lg:flex-row-reverse">
-              <img src="/assets/img/deals/c5d68d40-e026-4206-8eeb-43478dbba52c.jpg" alt="">
+              <div class="deal-card--image-wrapper">
+                  <img src="/assets/img/deals/c5d68d40-e026-4206-8eeb-43478dbba52c.jpg" alt="">
+              </div>
               <div class="deal-content">
                   <h3>"DOLBY ATMOS Delight: 50% Off for HNB Youth and TEEN+ Debit Cardholders!"</h3>
                   <p>
@@ -21,7 +23,9 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="deal-card">
-              <img src="/assets/img/deals/606adfd5-af73-4c58-8328-ec87d070192e.jpg" alt="">
+              <div class="deal-card--image-wrapper">
+                  <img src="/assets/img/deals/606adfd5-af73-4c58-8328-ec87d070192e.jpg" alt="">
+              </div>
               <div class="deal-content">
                   <h3>Season's Savings With People's Bank</h3>
                   <div class="deals--more-info">
@@ -33,7 +37,9 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="deal-card lg:flex-row-reverse">
-              <img src="/assets/img/deals/bc8bb16a-c2be-4798-a705-241d5470ed16.png" alt="">
+              <div class="deal-card--image-wrapper">
+                  <img src="/assets/img/deals/bc8bb16a-c2be-4798-a705-241d5470ed16.png" alt="">
+              </div>
               <div class="deal-content">
                   <h3>Season's Savings With Standard Chartered Bank</h3>
                   <p>
@@ -48,7 +54,9 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="deal-card">
-              <img src="/assets/img/deals/9efa2d23-266a-404d-a98d-8ab56bb1476e.jpg" alt="">
+              <div class="deal-card--image-wrapper">
+                  <img src="/assets/img/deals/9efa2d23-266a-404d-a98d-8ab56bb1476e.jpg" alt="">
+              </div>
               <div class="deal-content">
                   <h3>Red Bull Hotdog Combo Meal</h3>
                   <div class="deals--more-info">
