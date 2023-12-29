@@ -1,9 +1,17 @@
 .deal-card {
-  @apply mx-4 mt-4 overflow-hidden
+  @apply mx-4 mt-4 overflow-hidden lg:flex lg:items-center lg:justify-center lg:mx-auto lg:bg-gray-300 lg:w-[1024px]
+}
+
+.deals__heading {
+  @apply font-bold lg:w-[1024px] lg:mx-auto lg:font-light lg:text-[26px] lg:tracking-widest lg:mt-5;
+}
+
+.deal-content {
+  @apply lg:px-12;
 }
 
 .deal-card img {
-  @apply rounded-lg;
+  @apply rounded-lg lg:h-[350px] lg:p-12 lg:w-[50%];
   transition: transform 0.3s ease;
 }
 
@@ -12,7 +20,7 @@
 }
 
 .deal-card h3 {
-  @apply text-sm font-bold mt-3
+  @apply text-sm font-bold mt-3 lg:text-xl
 }
 
 .deal-card p {
