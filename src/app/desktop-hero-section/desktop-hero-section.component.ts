@@ -36,7 +36,6 @@ import { Component } from '@angular/core';
                                   </div>
                                   <div class="indicator"></div>
                               </div>
-
                           </button>
                       </div>
                   </div>

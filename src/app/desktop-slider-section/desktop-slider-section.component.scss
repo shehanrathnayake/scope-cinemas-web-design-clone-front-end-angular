@@ -1,17 +1,140 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+//slider now showing desktop
 
 swiper-container {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
-
+  cursor: pointer;
 }
 
 swiper-slide {
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  padding-bottom: 50px;
 }
 
-swiper-slide img {
+.now-showing--desktop-wrapper {
+  @apply absolute left-0 top-0 h-full w-full ps-10 pb-12 flex flex-col items-start justify-end text-white gap-1
+  bg-gradient-to-b from-[#000025]/0 to-[#000025]/100;;
+}
+
+.now-showing--desktop-wrapper h2 {
+  @apply text-start font-[400] text-[30px] pb-1 mt-1.5;
+  transition: color 0.4s ease;
+
+  &:hover {
+    @apply text-pink-600;
+  }
+}
+
+.now-showing__btn {
+  @apply flex items-center gap-3.5 text-xs font-light tracking-widest hover:text-pink-600
+}
+
+.now-showing__btn span {
+  @apply font-normal
+}
+
+.now-showing__btn img{
+  @apply w-[26px] mb-3
+}
+
+.now-showing__side-bar {
+  width: 120px;
+  height: 100%;
+  @apply absolute top-0 right-0 bg-blue-900 flex flex-col justify-end items-center text-white z-10;
+}
+
+.now-showing__side-bar div {
+  transition: color 0.4s ease;
+}
+
+.now-showing__side-bar:hover div {
+  @apply text-pink-600
+}
+
+.now-showing__btn .now-showing__icon--white {
+  display: block;
+}
+
+.now-showing__btn .now-showing__icon--pink {
+  display: none;
+}
+
+.now-showing__btn:hover .now-showing__icon--white {
+  display: none;
+}
+
+.now-showing__btn:hover .now-showing__icon--pink {
+  display: block;
+}
+
+.indicator-now-showing {
+  @apply w-[7px] h-2.5 bg-pink-600;
+  transition: width 0.4s ease;
+}
+
+.now-showing__btn:hover .indicator-now-showing {
+  @apply w-6
+}
+
+
+//Coming soon section desktop
+
+
+
+.swiper-slide__image-wrapper {
+  @apply w-full h-full overflow-hidden;
+}
+
+.swiper-slide__image-wrapper img {
   display: block;
   width: 100%;
+  object-fit: cover;
+  @apply rounded-t-md;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.slider__btn {
+  @apply flex items-center gap-3.5 text-xs font-light tracking-widest hover:text-pink-600
+}
+
+.slider__btn span {
+  @apply font-normal
+}
+
+.slider__btn img{
+  @apply w-[26px] mb-3
+}
+
+.slider__btn .slider__icon--white {
+  display: block;
+}
+
+.slider__btn .slider__icon--pink {
+  display: none;
+}
+
+.slider__btn:hover .slider__icon--white {
+  display: none;
+}
+
+.slider__btn:hover .slider__icon--pink {
+  display: block;
+}
+
+.indicator {
+  @apply w-[16px] h-[5px] bg-pink-600 mt-1;
+  transition: width 0.4s ease;
+}
+
+.slider__btn:hover .indicator {
+  @apply w-6
 }
