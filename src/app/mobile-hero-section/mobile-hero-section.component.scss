@@ -7,9 +7,6 @@ body {
 }
 
 body {
-  //background: #eee;
-  //font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  //font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
@@ -24,7 +21,6 @@ swiper-container {
 swiper-slide {
   text-align: center;
   //font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +40,7 @@ swiper-container {
 
 .hero-container {
   font-family: 'Roboto', sans-serif;
-  @apply flex lg:h-screen;
+  @apply hidden lg:flex lg:h-screen;
 }
 
 .hero--mobile-wrapper {
@@ -100,5 +96,6 @@ swiper-container {
 
   swiper-container {
     width: calc(100% - $sideBarWidth);
+    height: 100%;
   }
 }
