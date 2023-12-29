@@ -13,16 +13,21 @@ import { Component } from '@angular/core';
                   <p>
                       🎬 Exciting News for HNB Youth and TEEN+ Debit Cardholders! 🎟️
                   </p>
-                  <a href="#">MORE INFO</a>
+                  <div class="deals--more-info">
+                      <a href="#">MORE INFO</a>
+                      <div class="indicator"></div>
+                  </div>
               </div>
-
           </div>
 
           <div class="deal-card">
               <img src="/assets/img/deals/606adfd5-af73-4c58-8328-ec87d070192e.jpg" alt="">
               <div class="deal-content">
                   <h3>Season's Savings With People's Bank</h3>
-                  <a href="#">MORE INFO</a>
+                  <div class="deals--more-info">
+                      <a href="#">MORE INFO</a>
+                      <div class="indicator"></div>
+                  </div>
               </div>
 
           </div>
@@ -34,7 +39,10 @@ import { Component } from '@angular/core';
                   <p>
                       Enjoy 25% savings on your 2nd Movie Ticket when you purchase online (website only) at www.scopecinemas.com & 25% savings on the Combo Meal with StanChart credit cards. Offer valid once per card, day, transaction and mobile number every Friday and weekends until 23 December 2023. T&C apply. Scope Cinemas, CCC & Liberty by Scope Cinemas, Colpetty
                   </p>
-                  <a href="#">MORE INFO</a>
+                  <div class="deals--more-info">
+                      <a href="#">MORE INFO</a>
+                      <div class="indicator"></div>
+                  </div>
               </div>
 
           </div>
@@ -43,7 +51,10 @@ import { Component } from '@angular/core';
               <img src="/assets/img/deals/9efa2d23-266a-404d-a98d-8ab56bb1476e.jpg" alt="">
               <div class="deal-content">
                   <h3>Red Bull Hotdog Combo Meal</h3>
-                  <a href="#">MORE INFO</a>
+                  <div class="deals--more-info">
+                      <a href="#">MORE INFO</a>
+                      <div class="indicator"></div>
+                  </div>
               </div>
 
           </div>
