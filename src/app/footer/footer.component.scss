@@ -1,25 +1,43 @@
-body {
+.footer {
   font-family: 'Roboto', sans-serif;
+  @apply lg:flex lg:flex-row-reverse lg:h-auto lg:w-full lg:mx-auto
+}
+
+.footer__img--download {
+  @apply flex gap-3 px-4 pb-6;
 }
 
 .footer__img--download img {
-  @apply border-4 border-gray-400 border-opacity-10 rounded
+  @apply border-4 border-gray-400 border-opacity-10 rounded w-[150px]
 }
 
-.footer__img--download img {
-  width: 150px;
+.footer__img--social {
+  @apply flex justify-center gap-4 py-8 lg:flex lg:flex-col lg:justify-start lg:items-center lg:flex-grow lg:p-0
 }
 
 .footer__img--social img {
-  width: 20px;
+  @apply w-[20px] cursor-pointer;
+
+  &:hover {
+    filter: brightness(200%);
+  }
+}
+
+.footer__section1 {
+  @apply lg:w-[324px];
 }
 
 .footer__section2 {
-  background-color: #131334;
+  @apply lg:pt-10 lg:w-[700px] lg:flex lg:flex-row-reverse lg:items-start lg:justify-between bg-[#131334];
+}
+
+.footer__sides {
+  width: calc((100% - 1024px)/2);
+  @apply lg:flex-grow hidden lg:block;
 }
 
 .footer__menu {
-  font-size: 12px;
+  @apply flex gap-12 lg:gap-32 text-slate-500 px-4 lg:ps-0 lg:tracking-wider text-[12px] lg:text-[13px]
 }
 
 .footer__menu li {
@@ -27,6 +45,26 @@ body {
 }
 
 .footer__form__input {
-  font-size: 13px;
-  background-color: #1b1b46;
+  @apply text-[13px] bg-[#1b1b46] placeholder-gray-400 p-2 w-full
+}
+
+.indicator {
+  @apply w-[17px] h-1 bg-pink-600;
+  transition: width 0.4s ease;
+}
+
+.footer__form--submit {
+  @apply flex justify-end items-center mt-4 gap-3;
+}
+
+.footer__form--submit:hover .indicator {
+  @apply w-[25px]
+}
+
+.footer__form--wrapper {
+  @apply px-4 lg:ps-0 mt-14 text-gray-300 lg:flex lg:items-start
+}
+
+.footer__form--heading {
+  @apply font-light lg:w-40 lg:leading-none lg:pt-1.5
 }

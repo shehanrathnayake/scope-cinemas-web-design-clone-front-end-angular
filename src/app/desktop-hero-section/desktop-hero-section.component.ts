@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-desktop-hero-section',
   template: `
       <!--        Desktop hero section-->
-      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="0" effect="fade"
-                        loop="true" centered-slides="true" autoplay-delay="2500">
+      <swiper-container class="mySwiper" space-between="0" effect="fade"
+                        loop="true" centered-slides="true" autoplay-delay="3000">
 
           <swiper-slide>
               <div class="hero--desktop-wrapper-wrapper">
