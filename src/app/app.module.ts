@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MobileAsideComponent } from './mobile-aside/mobile-aside.component';
 import { DesktopSliderSectionComponent } from './desktop-slider-section/desktop-slider-section.component';
 import { DesktopHeroSectionComponent } from './desktop-hero-section/desktop-hero-section.component';
+import { HeaderDesktopComponent } from './header-desktop/header-desktop.component';
 // register Swiper custom elements
 register();
 
@@ -28,7 +29,8 @@ register();
     FooterComponent,
     MobileAsideComponent,
     DesktopSliderSectionComponent,
-    DesktopHeroSectionComponent
+    DesktopHeroSectionComponent,
+    HeaderDesktopComponent
   ],
   imports: [
     BrowserModule,
